@@ -10,7 +10,7 @@ html {
 }
 
 .main {
-    padding: 0 12px;
+    padding: 0 12px 20px 12px;
     background-color: rgba(5,160,190,0.5);
 }
 
@@ -18,8 +18,10 @@ html {
     text-align: center;
     text-decoration: double;
     font-size: 32px;
-    padding: 16px ;
-
+    padding: 32px ;
+    font-weight: bold;
+    border-bottom: 4px solid #fff;
+    margin-bottom: 32px;
 }
 
 .header-course {
@@ -50,12 +52,13 @@ html {
 
 #Course-choice:hover {
     color: #000;
-    background-color: #fff;
+    background-color: #ccc;
 }
 
 label {
     font-family: 'Fira Sans', sans-serif;
 }
+
 
 .gender {
     margin: 4px 6px 18px 0;
@@ -102,6 +105,10 @@ label {
     margin: 4px 6px 18px 0;
 }
 
+.course {
+    text-decoration: none;
+}
+
 .register {
     text-align: center;
     border-style: 1 solid;
@@ -110,4 +117,13 @@ label {
     background-color: green;
     margin-top: 30px;
     margin-bottom: 0px;
+}
+
+i {
+    font-style: normal;
+}
+
+.register:hover {
+    background-color: gray;
+    color: #000;
 }
