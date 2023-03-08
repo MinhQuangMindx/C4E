@@ -4,7 +4,173 @@
     box-sizing: border-box;
 }
 
-#img-infor {
-    width: 60px;
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main {
+    display: block;
+}
+
+#infor {
+    width: 30%;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 30px;
+}
+
+#work {
+    width: 70%;
+}
+
+.avatar {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(1, 1, 61);
+    color: #fff;
+    padding: 30px 0 ;
     
 }
+
+.img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 2px solid;
+}
+
+.infor-heading {
+    font-size: 12px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.infor-work {
+    font-size: large;
+    text-align: center;
+}
+
+.nav-person {
+
+}
+
+.about-me {
+    padding: 30px 0 0 12px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+.about-content {
+    padding: 12px 8px 8px 8px;
+}
+
+.fa-solid {
+    padding: 35px 0 0 12px;
+    display: flex;
+
+}
+.about-me {
+    display: block;
+    float: left;
+}
+
+.contact-me {
+    padding: 30px 0 12px 12px;
+    
+}
+
+.contact-1 {
+
+}
+
+.contact-content {
+
+}
+
+contact-2 {
+
+}
+contect-content {
+
+}
+contect-content {
+
+}
+contact-3 {
+
+}
+contect-content {
+
+}
+contect-content {
+
+}
+skills {
+
+}
+nav-person {
+
+}
+my-skill {
+
+}
+skills-1 {
+
+}
+skills-content
+skills-2
+skills-content
+skills-3
+skills-content
+skills-4
+skills-content
+skills-5
+skills-content
+work-designer
+work-address
+work-content
+work-development
+work-address
+work-content
+work-artist
+work-address
+work-content
+EDUCATION
+education-design
+education-address
+education-content
+education-arts
+education-address
+education-content
+LANGUAGES
+languages-english
+.languages-1 {
+    width: 30px;
+    display: block;
+
+}
+
+languages-content
+languages-bangali
+.languages-2 {
+    width: 30px;
+    display: block;
+
+}
+
+languages-content
+languages-german
+.languages-3 {
+    width: 30px;
+    display: block;
+
+}
+
+languages-content
