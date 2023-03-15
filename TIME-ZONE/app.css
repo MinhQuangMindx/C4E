@@ -22,6 +22,19 @@ html {
     margin: 0;
 }
 
+.menu-logo {
+    display: block;
+    height: 45px;
+}
+
+.menu-logo-1 {
+    display: block;
+    width: 120px;
+    height: 42px;
+    color: #9B9B9B;
+    padding: 10px 8px 0px 8px;
+}
+
 .tille {
     padding: 18px 12px;
     text-align: center;
@@ -38,7 +51,7 @@ html {
     
 }
 
-.fa-solid {
+#header-1 .fa-solid {
     padding: 18px 20px;
     border-left: 1px groove;
     border-bottom: 0;    
@@ -50,9 +63,25 @@ html {
     border-radius: 20%;
 }
 
-.fa-xmark:before {
-    
-    
+#header-2 {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #fff;
+
 }
+
+/* .timezone-logo {
+    display: block;
+    height: 105px;
+} */
+
+/* .timezone-logo a {
+    max-height: 105px;
+    max-width: ;
+} */
+
 
 
