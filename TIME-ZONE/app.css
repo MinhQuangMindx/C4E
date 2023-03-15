@@ -73,6 +73,19 @@ html {
 
 }
 
+#container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+
+    align-content: center;
+    padding: 60px 60px;
+}
+
+#container img {
+    align-items: center;
+}
+
 /* .timezone-logo {
     display: block;
     height: 105px;
