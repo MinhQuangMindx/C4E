@@ -133,6 +133,11 @@ html {
     cursor: pointer;
 }
 
+#container .header-box-1:hover {
+    color: #ff2020;
+    cursor: pointer;
+}
+
 #Navigation .Latest-submenu {
     display: none;
     position: absolute;
@@ -175,7 +180,8 @@ html {
 
 }
 
-#container .three-collum {
+/* Chia cột cách 1 Grid */
+/* #container .three-collum {
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: center;
@@ -185,14 +191,44 @@ html {
     position: relative;
 }
 
-
-
 #container .column-container {
     padding: 30px 30px; 
     display: flex;
     flex-direction: column;
     align-items: center;
+} */
+/* End cách 1 */
+
+
+/* Chia cột cách 2 */
+
+#container .three-row {
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
 }
+
+#container .column-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 18px;
+}
+
+
+
+/* End cách 2 */
+
+/* CSS cách 3 */
+
+/* .column-grid {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+} */
+/* End cách 3 */
 
 .container-title {  
     display: flex;
